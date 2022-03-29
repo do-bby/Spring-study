@@ -10,7 +10,7 @@ public class NetworkClient {
         connect();
         call("초기화 연결 메시지");
     }
-    @PostConstruct를 사용하면 빈 생성하기 전에 해당 메소드 실행
+    //@PostConstruct를 사용하면 빈 생성하기 전에 해당 메소드 실행
 
 
     @PreDestroy
