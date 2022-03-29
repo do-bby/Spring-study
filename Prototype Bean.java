@@ -23,7 +23,7 @@ public class PrototypeTest {
         assertThat(prototypebean1).isNotSameAs(prototypebean2);
 
 	//프로토타입이므로 2번의 요청이 왔을 때
-	//스프링 컨테이너는 새로운 프로토타입 빈을 생성해서 반환
+	//스프링 컨테이너는 새로운 프로토타입 빈을 생성해서 반환하므로 isNotSameAs 테스트 성공
 
         ac.close();
         
